@@ -1,0 +1,16 @@
+key - sound
+tab - C3
+q - D3
+w - E3
+e - F3
+r - G3
+t - A3
+Y - B3
+u - C4
+i - D4
+o - E4
+p - F4
+[ - G4
+] - A4
+\ - B4
+enter - C5

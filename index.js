@@ -10,8 +10,6 @@ $(document).keydown(function (event) {
     Id = Id.slice(1);
     var note = keys[(Id-1)%7];
     var octave = Math.floor((Id-1)/7) + i;
-    console.log(note);
-    console.log(octave);
     startPlay(note,octave);
 });
 
@@ -25,6 +23,10 @@ $(document).keyup(function (event) {
 $('button').mousedown(function(){
     var Id = $(this).attr('id');
     $('#'+Id).addClass("button-active");
+    Id = Id.slice(1);
+    var note = keys[(Id-1)%7];
+    var octave = Math.floor((Id-1)/7) + i;
+    startPlay(note,octave);
 });
 
 $('button').mouseup(function(){

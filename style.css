@@ -52,6 +52,6 @@ body{
 .short-button:hover{
     background-color: #36323f;
 }
-.short-button:active, .long-button:active{
+/* .short-button:active, .long-button:active{
     transform: translateY(7px);
-}
+} */

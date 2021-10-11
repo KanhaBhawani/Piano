@@ -1,12 +1,18 @@
 body{
     background-color: #82b5ff;
-    /* color: #82b4ffbb; */
+    /* background: url("photos/pexels-brett-sayles-3536459.jpg"); */
+    /* background: url("photos/pexels-moose-photos-1037992.jpg"); */
+    background: url("photos/pexels-pixabay-326311.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color : #eccccc;
     /* z-index: 0; */
 }
 /* ---------------------------------------------------- */
 .keyboard{
-    margin-left: 10%;
-    color: #82b5ff;
+    /* margin-left: 10%; */
+    /* color: #82b5ff; */
+    text-align: center;
     font-weight: bold;
 }
 .two-key{

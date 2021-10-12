@@ -36,11 +36,10 @@ $('button').mouseup(function () {
     $('#' + Id).removeClass("button-active");
 });
 
-// changing the range-->
+// range selector-->
 $("#note-range-selector").change(function () {
     var start_note = $(this).val();
     start_note = parseInt(note);
-    start_octave = start_note;
     change_notes(start_note);
 });
 
@@ -73,6 +72,7 @@ function stopPlay(note) {
 
 // changing range
 function change_notes(start_note){
+    start_octave = start_note;
     for (let index = 1; index <= 15; index++) {
         var note = keys_long[(index - 1) % 7];
         var octave = Math.floor((index - 1) / 7) + start_note;

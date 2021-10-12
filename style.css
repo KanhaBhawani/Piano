@@ -1,19 +1,27 @@
 body{
     background-color: #82b5ff;
-    /* background: url("photos/pexels-brett-sayles-3536459.jpg"); */
-    /* background: url("photos/pexels-moose-photos-1037992.jpg"); */
     background: url("photos/pexels-pixabay-326311.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color : #eccccc;
-    /* z-index: 0; */
+    text-shadow: 2px 2px 5px white;
 }
 /* ---------------------------------------------------- */
 .keyboard{
-    /* margin-left: 10%; */
-    /* color: #82b5ff; */
     text-align: center;
-    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.384);
+    /* width: 80%; */
+    margin: auto;
+    border-radius: 20px;
+}
+/* .speaker{
+    display: inline-block;
+    background-color: black;
+    height: 22rem;
+    width: 5rem;
+} */
+.key-playing-board{
+    display: inline-block;
 }
 .two-key{
     display: inline-block;
@@ -25,12 +33,14 @@ body{
     background-color: #fff;
     height: 22rem;
     width: 3.5rem;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 7px 7px;
     position: relative;
     z-index: 1;
-    margin: 0 -2px;
+    margin: 0 -1px;
     border: 3px solid rgb(0 0 0 / 30%);
     box-shadow:  0px 4px 9px 4px rgb(0 0 0 / 42%);
+    font-size: 1.2em;
+    color: rgba(128, 128, 128, 0.507);
 }
 .short-button{
     background-color:black;
@@ -51,6 +61,19 @@ body{
 .button-active{
     transform: translateY(7px);
 }
+#note-range-selector{
+    display: block;
+    margin: 20px auto;
+    padding: 2px 5px;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 8px;
+    border: 3px solid rgba(0, 0, 0, 0.726);
+    background-color: #ecccccb2;
+    /* color: grey; */
+    color: black;
+    /* text-shadow: 2px 2px 3px black; */
+}
 /* --------------------------------------------------------- */
 .long-button:hover{
     box-shadow:  0px 4px 12px 5px black;
@@ -58,6 +81,3 @@ body{
 .short-button:hover{
     background-color: #36323f;
 }
-/* .short-button:active, .long-button:active{
-    transform: translateY(7px);
-} */

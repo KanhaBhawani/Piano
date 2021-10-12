@@ -39,7 +39,7 @@ $('button').mouseup(function () {
 // range selector-->
 $("#note-range-selector").change(function () {
     var start_note = $(this).val();
-    start_note = parseInt(note);
+    start_note = parseInt(start_note);
     change_notes(start_note);
 });
 

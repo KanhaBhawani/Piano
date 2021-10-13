@@ -14,6 +14,18 @@ change_notes(start_octave);
 // keyboard events
 $(document).keydown(function (event) {
     var x = event.charCode || event.keyCode;
+    console.log(x);
+    if ((x == 17 || x == 37) && start_octave>1) {
+        start_octave--;
+        $('#note-range-selector').val(start_octave).attr('selected',true);
+        change_notes(start_octave);
+    }
+    if ((x == 32 || x == 39) && start_octave<6) {
+        start_octave++;
+        $('#note-range-selector').val(start_octave).attr('selected',true);
+        change_notes(start_octave);
+    }
+    // console.log(typeof(x));
     $("." + x).addClass("button-active");
     var Id = $(("." + x)).attr('id');
     getNoteOctave(Id);

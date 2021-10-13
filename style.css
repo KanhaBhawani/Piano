@@ -3,23 +3,53 @@ body{
     background: url("photos/pexels-pixabay-326311.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+/* ---------------------------------------------------- */
+.progress{
     color : #eccccc;
     text-shadow: 2px 2px 5px white;
 }
-/* ---------------------------------------------------- */
 .keyboard{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.384);
     /* width: 80%; */
-    margin: auto;
+    margin: 10px 20px;
+    padding: 10px;
     border-radius: 20px;
 }
-/* .speaker{
-    display: inline-block;
+.speaker{
+    /* display: inline-block; */
     background-color: black;
+    background-image: url("photos/speakers.jpg");
     height: 22rem;
-    width: 5rem;
-} */
+    width: 8rem;
+    margin: auto 70px;
+    border-radius: 10px;
+}
+.column {
+    float: left;
+    /* width: 33.33%; */
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+}
+
+.display-line{
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 5px 15px;
+    width: 30%;
+    margin: 20px auto;
+    font-family: 'Press Start 2P', cursive;
+    /* color: black; */
+}
 .key-playing-board{
     display: inline-block;
 }

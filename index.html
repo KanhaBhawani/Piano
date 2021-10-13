@@ -9,15 +9,20 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="photos/piano.png" type="image/x-icon">
 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
     <title>Piano</title>
 </head>
 
 <body>
-    <h1>Work in process...</h1>
-    <div class="keyboard">
-        <h1>Playing: <span id="played_key">Play a key</span></h1>
-        <!-- <div class="speaker" id="left"></div> -->
-        <div class="key-playing-board">
+    <h1 class="progress">Work in process...</h1>
+    <div class="keyboard row">
+        <h1 class="display-line">Playing: <span id="played_key">key</span></h1>
+        <div class="speaker column" id="left"></div>
+        <div class="key-playing-board column">
             <div class="two-key">
                 <button id="l1" class="long-button 9">
                     <div class="key-word-up">&#8633</div>
@@ -97,7 +102,7 @@
                 <div class="key-word-down">s15</div>
             </button>
         </div>
-        <!-- <div class="speaker" id="right"></div> -->
+        <div class="speaker column" id="right"></div>
         <select id="note-range-selector">
             <option value="1">KEYS: C1 TO C3</option>
             <option value="2">KEYS: C2 TO C4</option>

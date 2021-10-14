@@ -2,7 +2,7 @@
 var piano = Synth.createInstrument('piano');
 var keys_long = ['C', 'D', 'E', 'F', 'G', 'A', 'B'];
 var keys_short = ['C#', 'D#', 'F#', 'G#', 'A#'];
-var keyboard_size = 15;
+var keyboard_size = 22;
 var start_octave = 3;
 
 change_notes(start_octave);
@@ -20,7 +20,7 @@ $(document).keydown(function (event) {
         $('#note-range-selector').val(start_octave).attr('selected',true);
         change_notes(start_octave);
     }
-    if ((x == 32 || x == 39) && start_octave<6) {
+    if ((x == 32 || x == 39) && start_octave<5) {
         start_octave++;
         $('#note-range-selector').val(start_octave).attr('selected',true);
         change_notes(start_octave);
@@ -85,7 +85,7 @@ function stopPlay(note) {
 // changing range
 function change_notes(start_note){
     start_octave = start_note;
-    for (let index = 1; index <= 15; index++) {
+    for (let index = 1; index <= keyboard_size; index++) {
         var note = keys_long[(index - 1) % 7];
         var octave = Math.floor((index - 1) / 7) + start_note;
         $('#l' + index + " .key-word-down").text(note + octave);

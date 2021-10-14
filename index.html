@@ -19,11 +19,8 @@
 
 <body>
     <h1 class="progress">Work in process...</h1>
-    <!-- <div class="keyboard row"> -->
     <div class="keyboard">
-        <h1 class="display-line">Playing: <span id="played_key">key</span></h1>
-        <!-- <div class="speaker column" id="left"></div> -->
-        <!-- <div class="key-playing-board column"> -->
+        <h1 class="display-bar"><span id="played_key">START</span></h1>
         <div class="key-playing-board">
             <div class="two-key">
                 <button id="l1" class="long-button 9 first-key">
@@ -100,8 +97,6 @@
                 </button>
             </div>
             <!-- ----------------------------- -->
-            <!-- <button id="saprator" class="long-button" style="background-color: black;">
-            </button> -->
             <div class="two-key">
                 <button id="l15" class="long-button 86">
                     <div class="key-word-up">V</div>
@@ -144,21 +139,23 @@
                 <div class="key-word-down">s15</div>
             </button>
         </div>
-        <!-- <div class="speaker column" id="right"></div> -->
         <select id="note-range-selector">
             <option value="1">KEYS: C1 TO C4</option>
             <option value="2">KEYS: C2 TO C5</option>
             <option value="3" selected="selected">KEYS: C3 TO C6</option>
             <option value="4">KEYS: C4 TO C7</option>
             <option value="5">KEYS: C5 TO C8</option>
-            <!-- <option value="6">KEYS: C6 TO C8</option> -->
         </select>
     </div>
     <div class="footer">
+        <span class="footer-decoration">&#8212</span>
         <a class="footer-links" href="https://github.com/KanhaBhawani/Piano">GitHub</a>
         <a class="footer-links" href="#">About</a>
         <a class="footer-links" href="#">Contact us</a>
+        <span class="footer-decoration">&#8212</span>
     </div>
+
+    <!-- javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="audiosynth.js"></script>
     <script src="index.js"></script>

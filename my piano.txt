@@ -1,0 +1,65 @@
+////////////*************************** HTML ********************************//////////////
+<head><link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet"></head>
+<h1> &#x1F3B5&#x1F3B6 Virtual piano &#X1F3B6&#x1F3B5 </h1>
+<div class="keyboard">
+   <div class="container-left">
+    </div>
+  <div class="container-top">
+    </div>
+  <div class="container-right">
+    </div>
+  <div class="container-bottom">
+    </div>
+</div>
+
+
+////////////*************************** CSS ********************************//////////////
+h1{
+  font-family: Ephesis;
+  text-align: center ;
+  font-size: 5rem;
+}
+.keyboard{
+  display:flex;
+  align-self: center;
+  height: 500px;
+  width : 1500px;
+}
+.container-top{
+   display:flex;
+  height: 100px;
+  width : 1500px;
+  background-color: black;
+  box-shadow: 0px 42px 0px 0px #0a0a0a;
+}
+.container-left{
+   display:flex;
+  position: absolute;
+  top:367px;
+  height: 420px;
+  width : 100px;
+  background-color: black;
+  /*box-shadow: inset -20px -8px 11px 5px #080707;*/
+  border-radius: 0px 0px 0px 59px;
+}
+.container-right{
+ display: flex;
+    position: absolute;
+   top: 367px;
+   left:1408px;
+    height: 420px;
+    width: 100px;
+    background-color: black;
+    /*box-shadow: inset 20px -8px 11px 5px #080707;*/
+    border-radius: 0px 0px 59px 0px;
+}
+.container-bottom{
+    display:flex;
+  position: absolute;
+  left :55px;
+  top:737px;
+  height: 50px;
+  width : 1380px;
+  background-color: black;
+  border-radius: 12px;
+}

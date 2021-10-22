@@ -4,6 +4,13 @@ body{
     text-align: center;
     background-color: white;
 }
+hr{
+    width: 10%;
+    border-style: dotted none none none;
+    border-width: 7px;
+    color: #dce4e4;
+    margin: 70px auto 90px;
+}
 /*  */
 
 .top{
@@ -78,7 +85,7 @@ body{
 .profile{
     background-color: #fff;
     width: 50%;
-    margin: 100px auto;
+    margin: 50px auto;
     padding: 10px;
     text-align: left;
     line-height: 2;
@@ -86,6 +93,12 @@ body{
 }
 .profile p{
     color: #060d0e;
+}
+.team{
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 100px;
 }
 .profileContainer{
     margin-bottom: 130px;

@@ -1,123 +1,183 @@
-body{
-    margin: 0;
-    background-color: #82b5ff;
-    background: url("photos/pexels-pixabay-326311.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
+body {
+  margin: 0;
+  background-color: #82b5ff;
+  background: url("photos/pexels-pixabay-326311.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* ---------------------------------------------------- */
-.progress{
-    color : #eccccc;
-    text-shadow: 2px 2px 5px white;
+.progress {
+  color: #eccccc;
+  text-shadow: 2px 2px 5px white;
 }
-.keyboard{
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin: 10px 20px;
-    padding: 10px;
-    border-radius: 20px;
+.keyboard {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 10px 20px;
+  padding: 10px;
+  border-radius: 20px;
 }
-.speaker{
-    background-color: black;
-    background-image: url("photos/speakers.jpg");
-    height: 22rem;
-    width: 8rem;
-    margin: auto 70px;
-    border-radius: 10px;
-}
-
-.display-bar{
-    width: 18%;
-    margin: 20px auto;
-    padding: 15px 15px;
-    border: 3px solid black;
-    border-radius: 8px;
-    font-family: 'Press Start 2P', cursive;
-    background-color: rgb(211 117 117 / 62%);
-    color: #2a0505;
-}
-.key-playing-board{
-    display: inline-block;
-}
-.two-key{
-    display: inline-block;
-}
-.three-key{
-    display: inline-block;
-}
-.long-button{
-    background-color: #fff;
-    height: 22rem;
-    width: 3.5rem;
-    border-radius: 0px 0px 7px 7px;
-    position: relative;
-    z-index: 1;
-    margin: 0 -1px;
-    border: 3px solid rgb(0 0 0 / 30%);
-    box-shadow:  0px 4px 9px 4px rgb(0 0 0 / 42%);
-    font-size: 1.2em;
-    color: rgba(128, 128, 128, 0.507);
-}
-.short-button{
-    background-color:black;
-    height: 12.5rem;
-    width: 2rem;
-    z-index: 2;
-    position: absolute;
-    margin-top: 0px;
-    margin-left: -1.3rem;
-}
-.key-word-up{
-    column-count: 2;
-    column-gap: 20px;
-    height: 20rem;
-    text-align: center;
-    padding-left: 0.6rem;
-}
-.button-active{
-    transform: translateY(7px);
-}
-#note-range-selector{
-    display: block;
-    margin: 20px auto;
-    padding: 2px 5px;
-    text-align: center;
-    font-size: 1.5em;
-    border-radius: 8px;
-    border: 3px solid rgba(0, 0, 0, 0.726);
-    background-color: rgb(211 117 117 / 62%);
-    color: #2a0505;
-}
-.first-key{
-    border-radius: 10px 0px 8px 10px;
-}
-.last-key{
-    border-radius: 0 10px 10px 8px;
+.speaker {
+  background-color: black;
+  background-image: url("photos/speakers.jpg");
+  height: 22rem;
+  width: 8rem;
+  margin: auto 70px;
+  border-radius: 10px;
 }
 
-.footer{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-bottom: 0;
-    margin-top: 95px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.808);
+.display-bar {
+  width: 18%;
+  margin: 20px auto;
+  padding: 15px 15px;
+  border: 3px solid black;
+  border-radius: 8px;
+  font-family: "Press Start 2P", cursive;
+  background-color: rgb(211 117 117 / 62%);
+  color: #2a0505;
 }
-.footer-links, .footer-decoration{
-    margin: 20px;
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: blanchedalmond;
+.key-playing-board {
+  display: inline-block;
 }
-.footer-links:hover{
-    font-size: 1.3rem;
-    color: red;
+.two-key {
+  display: inline-block;
+}
+.three-key {
+  display: inline-block;
+}
+.long-button {
+  background-color: #fff;
+  width: 1.3rem;
+  height: 8rem;
+  border-radius: 0px 0px 7px 7px;
+  position: relative;
+  z-index: 1;
+  margin: 0 -1px;
+  border: 3px solid rgb(0 0 0 / 30%);
+  box-shadow: 0px 4px 9px 4px rgb(0 0 0 / 42%);
+  font-size: 1.2em;
+  color: rgba(128, 128, 128, 0.507);
+}
+.short-button {
+  background-color: black;
+  width: 0.65rem;
+  height: 4rem;
+  z-index: 2;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: -1.3rem;
+}
+.key-word-up {
+  column-count: 2;
+  column-gap: 20px;
+  height: 20rem;
+  text-align: center;
+  padding-left: 0.6rem;
+}
+.button-active {
+  transform: translateY(7px);
+}
+#note-range-selector {
+  display: block;
+  margin: 20px auto;
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 8px;
+  border: 3px solid rgba(0, 0, 0, 0.726);
+  background-color: rgb(211 117 117 / 62%);
+  color: #2a0505;
+}
+.first-key {
+  border-radius: 10px 0px 8px 10px;
+}
+.last-key {
+  border-radius: 0 10px 10px 8px;
+}
+
+.footer {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-bottom: 0;
+  margin-top: 95px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.808);
+}
+.footer-links,
+.footer-decoration {
+  margin: 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: blanchedalmond;
+}
+.footer-links:hover {
+  font-size: 1.3rem;
+  color: red;
 }
 /* --------------------------------------------------------- */
-.long-button:hover{
-    box-shadow:  0px 4px 12px 5px black;
+.long-button:hover {
+  box-shadow: 0px 4px 12px 5px black;
 }
-.short-button:hover{
-    background-color: #36323f;
+.short-button:hover {
+  background-color: #36323f;
+}
+@media only screen and (min-width: 593px) {
+  .long-button {
+    width: 1.4rem;
+    height: 10rem;
+  }
+  .short-button {
+    width: 0.7rem;
+    height: 5rem;
+  }
+}
+@media only screen and (min-width: 735px) {
+  .long-button {
+    width: 1.8rem;
+    height: 12rem;
+  }
+  .short-button {
+    width: 1.4rem;
+    height: 7rem;
+  }
+}
+@media only screen and (min-width: 830px) {
+  .long-button {
+    width: 2rem;
+    height: 14rem;
+  }
+  .short-button {
+    width: 1.6rem;
+    height: 8rem;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .long-button {
+    width: 2.4rem;
+    height: 18rem;
+  }
+  .short-button {
+    width: 1.8rem;
+    height: 10rem;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .long-button {
+    width: 2.8rem;
+    height: 20rem;
+  }
+  .short-button {
+    width: 2rem;
+    height: 11rem;
+  }
+}
+@media only screen and (min-width: 1320px) {
+  .long-button {
+    width: 3.2rem;
+    height: 22rem;
+  }
+  .short-button {
+    width: 2.3rem;
+    height: 12rem;
+  }
 }

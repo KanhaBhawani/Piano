@@ -84,8 +84,8 @@
             box-shadow: inset 3px 7px 0px 0px #242121, 5px 8px 3px 0px #8b8a8a;
         }
         
-        .button:active {
-            transform: translate(0.7px);
+        .button-active {
+            transform: translateY(5px);
         }
         
         .key-word-up {

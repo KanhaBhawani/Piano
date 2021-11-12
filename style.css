@@ -1,7 +1,7 @@
         body {
             margin: 0;
             background-color: #82b5ff;
-            background: url("photos/R.jfif");
+            background: url("photos/pexels-pixabay-326311.jpg");
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -46,8 +46,8 @@
         
         .key-playing-board {
             display: inline-block;
-            position: fixed;
-            top: 5.3rem;
+            position: absolute;
+            top: 6.2rem;
             left: 11rem;
         }
         
@@ -84,8 +84,8 @@
             box-shadow: inset 3px 7px 0px 0px #242121, 5px 8px 3px 0px #8b8a8a;
         }
         
-        .button:active {
-            transform: translate(0.7px);
+        .button-active {
+            transform: translateY(5px);
         }
         
         .key-word-up {
@@ -194,8 +194,7 @@
                 height: 12rem;
             }
             .key-playing-board {
-                left: 9rem;
-                top: 5.7rem;
+                left: 8.9rem;
             }
             .topcontainer {
                 height: 4rem;
@@ -243,7 +242,6 @@
             }
             .key-playing-board {
                 left: 5rem;
-                top: 5.56rem;
             }
             .key-word-up {
                 margin: 2px 0px -7px 6px;
@@ -287,7 +285,6 @@
             }
             .key-playing-board {
                 left: 3rem;
-                top: 5.65rem;
             }
             .key-word-up {
                 margin: 4px 0px -18px 6px;
@@ -326,7 +323,6 @@
             }
             .key-playing-board {
                 left: 3rem;
-                top: 5.4rem;
             }
             .key-word-up {
                 margin: 4px 0px -91px 2px;
@@ -385,7 +381,6 @@
             }
             .key-playing-board {
                 left: 3rem;
-                top: 5.58rem;
             }
             .key-word-up {
                 margin: 4px 0px -91px 2px;
@@ -466,7 +461,9 @@
             .footer-links,
             .footer-decoration {
                 font-size: 1rem;
-                margin: 0 16px 0 0;
+                position: relative;
+                left: -4rem;
+                margin: 0px 16px 0 0;
             }
             .footer {
                 width: 134%;

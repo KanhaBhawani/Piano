@@ -13,8 +13,6 @@ A brief description of what this project does and who it's for
 
 - [@ManasiShewale](https://github.com/ManasiShewale)
 
-- [@SachetVijay](https://github.com/SachetVijay)
-
 
 
 

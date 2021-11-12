@@ -1,3 +1,4 @@
+<<<<<<< HEAD
         body {
             margin: 0;
             background-color: #82b5ff;
@@ -472,3 +473,479 @@
                 font-size: 3rem;
             }
         }
+=======
+        body {
+            margin: 0;
+            background-color: #82b5ff;
+            background: url("photos/pexels-pixabay-326311.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* ---------------------------------------------------- */
+        
+        .progress {
+            font-family: Ephesis;
+            position: relative;
+            text-align: center;
+            color: rgb(137 25 56);
+            font-size: 4rem;
+            text-shadow: 2px 2px 5px white;
+        }
+        
+        .keyboard {
+            margin: auto;
+            height: 31rem;
+        }
+        
+        .speaker {
+            background-color: black;
+            background-image: url("photos/speakers.jpg");
+            height: 22rem;
+            width: 8rem;
+            margin: auto 70px;
+            border-radius: 10px;
+        }
+        
+        .display-bar {
+            position: relative;
+            top: 10px;
+            width: 15%;
+            height: 34%;
+            margin: 19px auto;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: "Press Start 2P", cursive;
+            background-color: rgb(242 255 133 / 62%);
+            color: rgb(42, 5, 5);
+        }
+        
+        .key-playing-board {
+            display: inline-block;
+            position: absolute;
+            top: 6.2rem;
+            left: 11rem;
+        }
+        
+        .two-key {
+            display: inline-block;
+            margin: 0 28px 0 0;
+        }
+        
+        .three-key {
+            display: inline-block;
+            margin: 0 28px 0 0;
+        }
+        
+        .long-button {
+            background-color: #fff;
+            height: 23rem;
+            width: 3.2rem;
+            position: relative;
+            z-index: 1;
+            font-size: 1rem;
+            color: black;
+            margin: 0 -2.1rem 0 0;
+            box-shadow: inset 0px 5px 7px 2px #686262;
+        }
+        
+        .short-button {
+            background-color: black;
+            height: 13.5rem;
+            width: 1.6rem;
+            z-index: 2;
+            position: relative;
+            left: 1rem;
+            top: 11.5rem;
+            box-shadow: inset 3px 7px 0px 0px #242121, 5px 8px 3px 0px #8b8a8a;
+        }
+        
+        .button:active {
+            transform: translate(0.7px);
+        }
+        
+        .key-word-up {
+            column-count: 2;
+            column-gap: 20px;
+            height: 20rem;
+            margin: 0 0 0 12px;
+        }
+        
+        #note-range-selector {
+            display: block;
+            position: absolute;
+            top: 30px;
+            left: 90px;
+            margin: 20px auto;
+            padding: 2px 5px;
+            text-align: center;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 3px solid rgba(0, 0, 0, 0.726);
+            background-color: rgb(242 255 133 / 62%);
+            color: #2a0505;
+        }
+        
+        .footer {
+            padding-top: 2%;
+            padding-bottom: 2%;
+            margin-bottom: 0;
+            margin-top: 95px;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.808);
+        }
+        
+        .footer-links,
+        .footer-decoration {
+            margin: 20px;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: blanchedalmond;
+        }
+        
+        .footer-links:hover {
+            font-size: 1.3rem;
+            color: red;
+        }
+        
+        .leftcontainer {
+            border: solid black;
+            position: relative;
+            height: 24.5rem;
+            width: 3rem;
+            top: 6.4rem;
+            left: 7.66rem;
+            border-radius: 0rem 0rem 0rem 2rem;
+            background-color: black;
+        }
+        
+        .rightcontainer {
+            border: solid black;
+            height: 24.5rem;
+            width: 3rem;
+            position: relative;
+            top: -24.55rem;
+            left: 80.4rem;
+            border-radius: 0rem 0rem 2rem 0rem;
+            background-color: black;
+        }
+        
+        .topcontainer {
+            background-color: black;
+            height: 5rem;
+            width: 76.2rem;
+            position: relative;
+            top: -26rem;
+            left: 7.5rem;
+            box-shadow: 0px 24px 0px 0px #161414;
+        }
+        
+        .bottom {
+            background-color: black;
+            height: 2.5rem;
+            width: 71.5rem;
+            position: relative;
+            top: -27rem;
+            left: 9.7rem;
+        }
+        /* --------------------------------------------------------- */
+        
+        .long-button:hover {
+            box-shadow: 0px 4px 12px 5px black;
+        }
+        
+        .short-button:hover {
+            background-color: #36323f;
+        }
+        /********************************* responsive *****************************************/
+        
+        @media only screen and (max-width:1300px) {
+            .long-button {
+                width: 3rem;
+                height: 22rem;
+                top: 1rem;
+            }
+            .short-button {
+                width: 1.3rem;
+                height: 12rem;
+            }
+            .key-playing-board {
+                left: 9rem;
+            }
+            .topcontainer {
+                height: 4rem;
+                width: 67.5rem;
+                top: -24rem;
+                left: 5.5rem;
+            }
+            .leftcontainer {
+                height: 24rem;
+                width: 3rem;
+                top: 6.4rem;
+                left: 5.66rem;
+            }
+            .rightcontainer {
+                height: 24rem;
+                width: 3rem;
+                top: -23.0rem;
+                left: 69.7rem;
+            }
+            .bottom {
+                height: 2.5rem;
+                width: 62.5rem;
+                top: -25.5rem;
+                left: 7.5rem;
+            }
+            #note-range-selector {
+                top: 15px;
+                left: 50px;
+            }
+            .display-bar {
+                height: 34%;
+            }
+        }
+        
+        @media only screen and (max-width:1170px) {
+            .long-button {
+                width: 2.9rem;
+                height: 21rem;
+                top: 1rem;
+            }
+            .short-button {
+                width: 1.25rem;
+                height: 11.5rem;
+                top: 11.2rem;
+            }
+            .key-playing-board {
+                left: 5rem;
+            }
+            .key-word-up {
+                margin: 2px 0px -7px 6px;
+            }
+            .bottom {
+                top: -24.8rem;
+                height: 2.3rem;
+                width: 58.5rem;
+                left: 4.5rem;
+            }
+            .leftcontainer {
+                height: 23rem;
+                width: 3rem;
+                top: 6rem;
+                left: 1.77rem;
+            }
+            .rightcontainer {
+                height: 23rem;
+                width: 3rem;
+                top: -22.5rem;
+                left: 62.96rem;
+            }
+            .topcontainer {
+                height: 4rem;
+                width: 64.5rem;
+                top: -23.9rem;
+                left: 1.77rem;
+            }
+        }
+        
+        @media only screen and (max-width:1000px) {
+            .long-button {
+                width: 2.8rem;
+                height: 20.5rem;
+                top: 1rem;
+            }
+            .short-button {
+                width: 1.3rem;
+                height: 12rem;
+                top: 11.5rem;
+            }
+            .key-playing-board {
+                left: 3rem;
+            }
+            .key-word-up {
+                margin: 4px 0px -18px 6px;
+            }
+            #note-range-selector {
+                top: 15px;
+                left: 50px;
+            }
+            .leftcontainer {
+                left: 0;
+            }
+            .rightcontainer {
+                left: 59.5rem;
+            }
+            .bottom {
+                width: 57.5rem;
+                left: 2.5rem;
+            }
+            .topcontainer {
+                top: -23.5rem;
+                left: -0.23rem;
+            }
+        }
+        
+        @media only screen and (max-width:950px) {
+            .long-button {
+                width: 2.4rem;
+                height: 16rem;
+                top: 5rem;
+            }
+            .short-button {
+                width: 1rem;
+                height: 8rem;
+                top: 11.5rem;
+                left: 0.8rem;
+            }
+            .key-playing-board {
+                left: 3rem;
+            }
+            .key-word-up {
+                margin: 4px 0px -91px 2px;
+                font-size: small;
+            }
+            .key-word-down {
+                font-size: small;
+            }
+            .leftcontainer {
+                left: 11px;
+                height: 18rem;
+                width: 2rem;
+            }
+            .rightcontainer {
+                left: 46.2rem;
+                height: 17.6rem;
+                width: 2rem;
+                top: -17rem;
+            }
+            .topcontainer {
+                top: -18.4rem;
+                left: 0.7rem;
+                width: 47.8rem;
+            }
+            .bottom {
+                width: 44rem;
+                top: -19.1rem;
+                height: 2.1rem;
+            }
+            .display-bar {
+                height: 17%;
+            }
+            #played_key {
+                position: relative;
+                top: -1rem;
+                font-size: medium;
+            }
+            #note-range-selector {
+                height: 1.3rem;
+                font-size: 11px;
+            }
+        }
+        
+        @media only screen and (max-width:750px) {
+            .long-button {
+                width: 2.1rem;
+                height: 12rem;
+                top: 7rem;
+                box-shadow: inset 0px 3px 5px 1px #686262;
+            }
+            .short-button {
+                width: 0.7px;
+                height: 6rem;
+                left: 0.7rem;
+                box-shadow: inset 1px 5px 0px 0px #242121, 3px 6px 3px 0px #8b8a8a;
+            }
+            .key-playing-board {
+                left: 3rem;
+            }
+            .key-word-up {
+                margin: 4px 0px -91px 2px;
+                font-size: small;
+            }
+            .key-word-down {
+                font-size: small;
+            }
+            .leftcontainer {
+                left: 0.7rem;
+                height: 13rem;
+                top: 6.5rem;
+            }
+            .rightcontainer {
+                left: 39.5rem;
+                height: 13rem;
+                top: -12rem;
+            }
+            .topcontainer {
+                top: -13.3rem;
+                width: 41.1rem;
+            }
+            .bottom {
+                height: 1.15rem;
+                width: 37rem;
+                left: 3rem;
+                top: -13.15rem;
+            }
+            .key-word-up {
+                margin: 5px 0px -150px -1px;
+                font-size: 11px;
+            }
+            .key-word-down {
+                font-size: 11px;
+            }
+        }
+        
+        @media only screen and (max-width:650px) {
+            .keyboard {
+                transform: rotate(270deg);
+                width: 48rem;
+                position: relative;
+                top: -30px;
+                left: -9rem;
+            }
+            .key-playing-board {
+                left: 2rem;
+                top: -4rem;
+            }
+            .leftcontainer {
+                left: -0.3rem;
+                height: 13rem;
+                top: 7.5rem;
+            }
+            .rightcontainer {
+                left: 38.5rem;
+                top: -10.9rem;
+            }
+            .topcontainer {
+                left: -0.3rem;
+                top: -12.3rem;
+            }
+            .bottom {
+                top: -12.1rem;
+                left: 1.5rem;
+            }
+            .footer {
+                margin-top: 125px;
+            }
+            .progress {
+                position: relative;
+                top: -2rem;
+                text-align: center;
+            }
+        }
+        
+        @media only screen and (max-width:530px) {
+            .footer-links,
+            .footer-decoration {
+                font-size: 1rem;
+                position: relative;
+                left: -4rem;
+                margin: 0px 16px 0 0;
+            }
+            .footer {
+                width: 134%;
+            }
+            .progress {
+                font-size: 3rem;
+            }
+        }
+>>>>>>> 6fbcd16e8516a6794d9b4e4280ee9382283ae994

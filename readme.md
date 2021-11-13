@@ -21,8 +21,8 @@ A brief description of what this project does and who it's for
 
 
 
-## Screenshots
-This is the actual look of our site
+## Preview
+This is the actual look of our piano
 ![App Screenshot](https://github.com/KanhaBhawani/Piano/blob/master/photos/piano%20ss.png)
 
 
